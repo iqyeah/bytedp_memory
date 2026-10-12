@@ -1,4 +1,4 @@
-module github.com/cafebaby/bytedp_memory
+module github.com/iqyeah/bytedp_memory
 
 go 1.26.0
 
