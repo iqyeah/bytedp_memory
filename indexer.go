@@ -10,7 +10,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/cafebaby/bytedp_memory/memdir"
+	"github.com/iqyeah/bytedp_memory/memdir"
 )
 
 // Default Markdown chunk budgets for memdir file indexing.
