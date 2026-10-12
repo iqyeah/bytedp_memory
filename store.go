@@ -1,4 +1,4 @@
-package memory
+package bytedp_memory
 
 import (
 	"context"
@@ -9,9 +9,9 @@ import (
 	"path/filepath"
 	"time"
 
+	"github.com/google/uuid"
 	_ "modernc.org/sqlite"
 	_ "modernc.org/sqlite/vec" // sqlite-vec: registers the vec0 module on every connection (CGo-free)
-	"github.com/google/uuid"
 )
 
 // SQLExecutor is a common interface for sql.DB and sql.Tx

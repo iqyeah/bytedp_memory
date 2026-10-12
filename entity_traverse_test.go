@@ -1,4 +1,4 @@
-package memory
+package bytedp_memory
 
 import "testing"
 

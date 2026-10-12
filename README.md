@@ -5,7 +5,7 @@
 
 Agent 记忆检索系统：SQLite + FTS5 trigram 全文检索 + sqlite-vec 向量语义搜索（CGo-free）+ 混合检索 + MMR 重排 + 时间衰减 + TTL 治理 + 结构化关系图谱 + 实体图谱图遍历。
 
-模块路径：`github.com/iqyeah/bytedp_memory`（包名 `memory`）。
+模块路径：`github.com/iqyeah/bytedp_memory`。
 
 ## 能力
 

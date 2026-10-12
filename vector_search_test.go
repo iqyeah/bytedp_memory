@@ -1,4 +1,4 @@
-package memory
+package bytedp_memory
 
 import (
 	"context"
@@ -31,8 +31,8 @@ func (m *mockVecProvider) EmbedBatchWithContext(ctx context.Context, texts []str
 	return m.EmbedBatch(texts)
 }
 
-func (m *mockVecProvider) Dimension() int      { return m.dim }
-func (m *mockVecProvider) MaxBatchSize() int   { return 16 }
+func (m *mockVecProvider) Dimension() int       { return m.dim }
+func (m *mockVecProvider) MaxBatchSize() int    { return 16 }
 func (m *mockVecProvider) VecTableName() string { return "vec_test_table" }
 
 // deterministicTestVec derives a stable dim-length vector from seed via
